@@ -1,0 +1,112 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Cybersecurity Questions & Explanation of Best Practices
+	</title>
+
+	<link href="{% static 'css/base.css' %}" rel="stylesheet">
+</head>
+
+<body>
+	<h1>Cybersecurity Questions & Explanation of Best Practices</h1>
+
+	<!-- Create Form -->
+	<form id="form">
+
+		<!-- Details -->
+
+<div class="form-control">
+<p><b>Question#1</b> I reuse the same password for:</p>
+			
+<input type="radio" id="q_one" name="o_choice" value="All Of My Online Accounts"><label for="q_one">All Of My Online Accounts</label>
+<input type="radio" id="q_one" name="o_choice" value="Most Of My Online Accounts"><label for="q_one">Most Of My Online Accounts</label>
+<input type="radio" id="q_one" name="o_choice" value="Some Of My Online Accounts"><label for="q_one">Some Of My Online Accounts</label>
+<input type="radio" id="q_one" name="o_choice" value="I Never Use The Same Password More Than Once"><label for="q_one">I Never Use The Same Password More Than Once</label>
+<br>	
+</div>
+
+<hr width="60%"><br>
+
+<div class="form-control">
+<p><b>Question#2</b> My passwords contains:</p>
+			
+<input type="radio" id="q_two" name="t_choice" value="Personal Information (I.E. Birth Date, Graduation Year, Pet's Name, Street Name, Etc.)"><label for="q_two">Personal Information (I.E. Birth Date, Graduation Year, Pet's Name, Street Name, Etc.)</label>
+<input type="radio" id="q_two" name="t_choice" value="Dictionary Words Or Phrases"><label for="q_two">Dictionary Words Or Phrases</label>
+<input type="radio" id="q_two" name="t_choice" value="The Same Information As My Other Passwords, Just In A Different Sequence"><label for="q_two">The Same Information As My Other Passwords, Just In A Different Sequence</label>
+<input type="radio" id="q_two" name="t_choice" value="Randomized Sequence Of Numbers, Letters, And Symbols"><label for="q_two">Randomized Sequence Of Numbers, Letters, And Symbols</label>
+<br>	
+</div>
+
+<hr width="60%"><br>
+
+<div class="form-control">
+<p><b>Question#3</b> I save my password in a web browser:</p>
+			
+<input type="radio" id="q_three" name="th_choice" value="Always"><label for="q_three">Always</label>
+<input type="radio" id="q_three" name="th_choice" value="Sometimes"><label for="q_three">Sometimes</label>
+<input type="radio" id="q_three" name="th_choice" value="Never"><label for="q_three">Never</label>
+<br>	
+</div>
+
+<hr width="60%"><br>
+
+<div class="form-control">
+<p><b>Question#4</b> I use the following type(s) of two-factor authentication when logging into my accounts:</p>
+			
+<input type="radio" id="q_four" name="f_choice" value="Passwords"><label for="q_four">Passwords</label>
+<input type="radio" id="q_four" name="f_choice" value="PIN Number"><label for="q_four">PIN Number</label>
+<input type="radio" id="q_four" name="f_choice" value="Security Question"><label for="q_four">Security Question</label>
+<input type="radio" id="q_four" name="f_choice" value="Biometric Authentication"><label for="q_four">Biometric Authentication</label>
+<br>	
+</div>
+
+<hr width="60%"><br>
+		
+<div class="form-control">
+<p><b>Question#5</b> When I receive an email with a link or document attached:</p>
+			
+<input type="radio" id="q_five" name="fi_choice" value="I Click On The Link Or Download The Document Immediately"><label for="q_five">I Click On The Link Or Download The Document Immediately</label>
+<input type="radio" id="q_five" name="fi_choice" value="I Verify The Sender's Email Domain To Ensure I Recognize It And The Email Domain Is Legitimate"><label for="q_five">I Verify The Sender's Email Domain To Ensure I Recognize It And The Email Domain Is Legitimate</label>
+<input type="radio" id="q_five" name="fi_choice" value="I Examine The Link Before Clicking To Identify Any Suspicious Words And Misspellings"><label for="q_five">I Examine The Link Before Clicking To Identify Any Suspicious Words And Misspellings</label>
+<input type="radio" id="q_five" name="fi_choice" value="I Verify And Examine (Second And Third Answers)"><label for="q_five">I Verify And Examine (Second And Third Answers)</label>
+<br>	
+</div>
+
+<hr width="60%"><br>
+
+<div class="form-control">
+<p><b>Question#6</b> My organization has an Incident Response Plan:</p>
+			
+<input type="radio" id="q_six" name="s_choice" value="Yes"><label for="q_six">Yes</label>
+<input type="radio" id="q_six" name="s_choice" value="No"><label for="q_six">No</label>
+<input type="radio" id="q_six" name="s_choice" value="I Am Not Sure If My Organization Has An Incident Response Plan?"><label for="q_six">I Am Not Sure If My Organization Has An Incident Response Plan?</label>
+<br>	
+</div>
+
+<hr width="60%"><br>
+
+<div class="form-control">
+<p><b>Question#7</b> My organization offers regular cybersecurity training to employees on reporting incidents, password security, phishing, etc.?</p>
+			
+<input type="radio" id="q_seven" name="sev_choice" value="Yes"><label for="q_seven">Yes</label>
+<input type="radio" id="q_seven" name="sev_choice" value="No"><label for="q_seven">No</label>
+<input type="radio" id="q_seven" name="sev_choice" value="I Am Not Sure If My Organization Offers Regular Cybersecurity Training?"><label for="q_seven">I Am Not Sure If My Organization Offers Regular Cybersecurity Training?</label>
+<br>	
+</div>
+
+		<!-- Multi-line Text Input Control -->
+		<button type="submit" value="submit">
+			Submit
+		</button>
+	</form>
+</body>
+
+</html>
